@@ -1,0 +1,91 @@
+body{
+    text-align: center;
+}
+h1{
+    
+    display: inline-block;
+    position: relative;
+   
+    
+    
+
+}
+h1::after,h1::before{
+    content:'' ;
+    position: absolute;
+    width: 120px;
+    height: 3px;
+    background-color: black;
+    top: 0.6em;
+
+}
+h1::before{
+    left: -140px;
+}
+h1::after{
+    right: -140px;
+}
+aside {
+    
+    width: 200px;
+    float: right;
+    margin-right: 400px;
+    
+    
+    
+}
+nav{
+    max-width: 1000px;
+    background: #000;
+    margin: 0 auto;
+    border-radius: 0 0 20px 20px;
+    text-align: center;
+    padding: 30px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    
+}
+div{
+    max-width: 1000px;
+    margin: 0 auto;
+    border-radius: 0 0 20px 20px;
+    text-align: center;
+    padding: 30px;
+    box-sizing: border-box;
+    font-size: 18px;
+
+}
+
+article {
+    /* para mandar el aside a la derecha */
+    width: 200px;
+    float: unset; 
+    margin-left: 400px;
+    padding: 4px;
+    
+}
+h5{
+  
+    color: rgb(0, 0, 0);
+}
+
+h2{
+    text-align: center;
+}
+footer{
+    max-width: 1000px;
+    background: #000;
+    margin: 0 auto;
+    border-radius: 0 0 20px 20px;
+    color: #fff;
+    text-align: center;
+    padding: 30px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+h6{
+    text-align: center;
+}
+
